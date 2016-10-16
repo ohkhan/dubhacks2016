@@ -18,15 +18,23 @@ body, html {
 }
 
 .logo_image {
-  flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 100%;
+  flex-shrink: 1;
+  flex-grow: 1;
+  width: auto;
+  text-align: center;
 }
 
 .search_input_field {
   height: 10vh;
   font-size: 18px;
   text-align: center;
+  width: 100%;
+}
+
+.search_input_form {
+  flex-shrink: 1;
   flex: 1;
 }
 
