@@ -32,6 +32,7 @@ body, html {
   font-size: 18px;
   text-align: center;
   color: white;
+  font-size: 25px;
 }
 
 .textbox2 {
@@ -50,22 +51,85 @@ body, html {
   color: white;
 }
 
-.developers {
+.geo_dev {
   z-index: 1;
   position: absolute;
-  left: 20vw;
-  right: 20vw;
+  left: 2vw;
+  right: 80vw;
   top: 233vh;
   bottom: 25vh;
   padding: 20px;
   background-color: rgba( 0, 0, 0, 0.75 );
   border-radius: 10px;
-  height: 10vh;
+  height: 60vh;
   font-size: 18px;
   text-align: left;
   color: white;
 }
 
+.omar_dev {
+  z-index: 1;
+  position: absolute;
+  left: 20vw;
+  right: 60vw;
+  top: 233vh;
+  bottom: 25vh;
+  padding: 20px;
+  background-color: rgba( 0, 0, 0, 0.75 );
+  border-radius: 10px;
+  height: 60vh;
+  font-size: 18px;
+  text-align: left;
+  color: white;
+}
+
+.josh_dev {
+  z-index: 1;
+  position: absolute;
+  left: 40vw;
+  right: 39vw;
+  top: 233vh;
+  bottom: 25vh;
+  padding: 20px;
+  background-color: rgba( 0, 0, 0, 0.75 );
+  border-radius: 10px;
+  height: 60vh;
+  font-size: 18px;
+  text-align: left;
+  color: white;
+}
+
+.peter_dev {
+  z-index: 1;
+  position: absolute;
+  left: 61vw;
+  right: 19vw;
+  top: 233vh;
+  bottom: 25vh;
+  padding: 20px;
+  background-color: rgba( 0, 0, 0, 0.75 );
+  border-radius: 10px;
+  height: 60vh;
+  font-size: 18px;
+  text-align: left;
+  color: white;
+}
+
+.kishore_dev {
+  z-index: 1;
+  position: absolute;
+  left: 81vw;
+  right: 1vw;
+  top: 233vh;
+  bottom: 25vh;
+  padding: 20px;
+  background-color: rgba( 0, 0, 0, 0.75 );
+  border-radius: 10px;
+  height: 60vh;
+  font-size: 18px;
+  text-align: left;
+  color: white;
+}
 
 .item_container {
   width: 100%;
@@ -142,9 +206,6 @@ body, html {
   background-image: url(music3.jpg);
 }
 
-strong {
-  color: cyan;
-}
 .parallax .bg__break {
   /*box-shadow: inset 0 0 1em #111;*/
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax1.jpg);
@@ -189,4 +250,8 @@ a, a:visited, a:active {
 
 body {
   margin: 0;
+}
+
+strong {
+  color: cyan;
 }
